@@ -1,0 +1,45 @@
+## Introduction to database and deffinitions
+# this notes were based on referece from this article
+  https://blog.airtable.com/what-is-a-database/
+
+What is database?: 
+    A database is a logically organized collection of information, designed in such a way that the information within can be accessed for later use by a computer program.
+    Databases power everything from banking software to scientific research to government records, as well as the websites you use every day, like Amazon, YouTube, Netflix, and Wikipedia.
+    The can be used both for large and small scale operations depending on the information and the accessibility rights.
+
+What is a data model?:
+    From Wikipedia a  data model is an abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities.
+    The term data model describes the logical structure of a database, which determines the rules for how the information within can be organized and manipulated.
+
+Note: 
+    If you are trying to create a database with a high degree of data integrity that can scale flexibly, a relational database will likely work best; if you need a database that can handle massive quantities of data, a graph database could be a good option.
+
+
+What is structured and unstructered data?:
+   When data is structured, that means it’s formatted and searchable—think of a list of customer names and emails in a spreadsheet or CSV. Unstructured data lacks both formatting and accessibility, and is therefore much harder to analyze. The most common examples of unstructured data include audio, video, and image files.
+
+What does CSV mean?:
+    A CSV (comma-separated values) file is a text file that has a specific format which allows data to be saved in a table structured format.
+
+What is database schema?:
+    A schema is guide or blueprint that contians instructions (rules ) on how information will be stored across your database.
+
+What is a spreadsheet?:
+    According to Wikipedia a spreadsheet is a computer application for computation, organization, analysis and storage of data in tabular form.
+    Spreadsheets were developed as computerized analogs of paper accounting worksheet.
+
+What is a database managment system (DBMS)?:
+    DBMS is the software that makes it possible for end users to create, modify, and manage databases, as well as define, store, manipulate, and retrieve the data inside those databases. 
+    examples of DBMS: MySQL, MongoDB, Oracle, FileMaker, Microsoft’s Azure, and Airtable.
+
+* Optimizing the importace of a database with respect to a spreadsheet:
+    Scalability: Database systems are capable of storing and handling truly massive, complex data sets, or big data. This is why websites like Google that have to deal with terabytes (and even petabytes) c,.of data every day need databases in order to function and it is easy to add and access this data over time .
+    while with Spreadsheets it becomes harder to track the data over time and more so even more complex locating specific pieces of information as the system grows larger.
+
+    Multiple users: databases are designed from the ground up to support multiple people working together and taking action on a shared set of information unlike a spread sheet were only one person can work on a given file at a time.
+
+    Redundancy: database permits infomation to be store only one without repeatition and an update on one end should  be enuough to update the whole system while on speadsheet the data is store to many locations so manny updates are required
+
+    power: Since databases are designed to make it easy to retrieve data, they also make it possible to process that data in powerful and interesting ways, you can request specific info at any time while on a spreadsheet you will need to know the specific location of your file and will have to  navigate your way to the info you riqure.
+
+    
